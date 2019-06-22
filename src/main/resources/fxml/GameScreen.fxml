@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kodilla.game.controllers.GameScreenController">
+   <children>
+      <VBox fx:id="playerVbox" layoutX="43.0" layoutY="185.0" prefHeight="230.0" prefWidth="264.0">
+         <children>
+            <HBox fx:id="hboxA" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="pa1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A1" />
+                  <Button fx:id="pa2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A2" />
+                  <Button fx:id="pa3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A3" />
+                  <Button fx:id="pa4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A4" />
+                  <Button fx:id="pa5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A5" />
+               </children>
+            </HBox>
+            <HBox fx:id="hboxB" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="pb1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B1" />
+                  <Button fx:id="pb2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B2" />
+                  <Button fx:id="pb3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B3" />
+                  <Button fx:id="pb4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B4" />
+                  <Button fx:id="pb5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B5" />
+               </children>
+            </HBox>
+            <HBox fx:id="hboxC" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="pc1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C1" />
+                  <Button fx:id="pc2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C2" />
+                  <Button fx:id="pc3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C3" />
+                  <Button fx:id="pc4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C4" />
+                  <Button fx:id="pc5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C5" />
+               </children>
+            </HBox>
+            <HBox fx:id="hboxD" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="pd1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D1" />
+                  <Button fx:id="pd2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D2" />
+                  <Button fx:id="pd3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D3" />
+                  <Button fx:id="pd4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D4" />
+                  <Button fx:id="pd5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D5" />
+               </children>
+            </HBox>
+            <HBox fx:id="hboxE" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="pe1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E1" />
+                  <Button fx:id="pe2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E2" />
+                  <Button fx:id="pe3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E3" />
+                  <Button fx:id="pe4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E4" />
+                  <Button fx:id="pe5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E5" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox fx:id="computerVbox" layoutX="307.0" layoutY="185.0" prefHeight="230.0" prefWidth="264.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="ca1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A1" />
+                  <Button fx:id="ca2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A2" />
+                  <Button fx:id="ca3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A3" />
+                  <Button fx:id="ca4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A4" />
+                  <Button fx:id="ca5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="A5" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="cb1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B1" />
+                  <Button fx:id="cb2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B2" />
+                  <Button fx:id="cb3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B3" />
+                  <Button fx:id="cb4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B4" />
+                  <Button fx:id="cb5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="B5" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="cc1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C1" />
+                  <Button fx:id="cc2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C2" />
+                  <Button fx:id="cc3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C3" />
+                  <Button fx:id="cc4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C4" />
+                  <Button fx:id="cc5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="C5" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="cd1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D1" />
+                  <Button fx:id="cd2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D2" />
+                  <Button fx:id="cd3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D3" />
+                  <Button fx:id="cd4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D4" />
+                  <Button fx:id="cd5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="D5" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="ce1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E1" />
+                  <Button fx:id="ce2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E2" />
+                  <Button fx:id="ce3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E3" />
+                  <Button fx:id="ce4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E4" />
+                  <Button fx:id="ce5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="E5" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="playerStatsLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="142.0" prefHeight="30.0" prefWidth="200.0" text="playerLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="computerStatsLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="339.0" layoutY="142.0" prefHeight="30.0" prefWidth="200.0" text="computerLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameStatusLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="45.0" layoutY="426.0" prefHeight="30.0" prefWidth="511.0" text="statusLabel" textFill="#cd1414">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="endGameButton" layoutX="513.0" layoutY="550.0" mnemonicParsing="false" onAction="#gameEndAction" text="End Game" />
+      <Button fx:id="startBattleButton" layoutX="235.0" layoutY="456.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="135.0" text="Start Battle!" />
+      <Label fx:id="playerNameLabel" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="112.0" prefHeight="30.0" prefWidth="200.0" text="player" textAlignment="CENTER" textFill="#cd1414">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="339.0" layoutY="112.0" prefHeight="30.0" prefWidth="200.0" text="Computer" textFill="#cd1414">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
